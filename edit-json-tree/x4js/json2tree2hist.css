@@ -1,0 +1,13 @@
+/*	Program:	json2tree2hist.css
+	Author:		Viktor Zerkin, V.Zerkin@gmail.com
+	Last modified:	2024-01-23
+	Distribution:	2024-01-25
+	Property of:	Viktor Zerkin
+	Project:	Multi-Platform Nuclear Reaction Databases           
+	Usage:		with proper acknolegement to the author
+	Distribution:	restricted while the project has not been finished  
+	Modifications:	can be done with permission of the author           
+	Note:		this is non-commercial software and it comes with   
+			NO WARRANTY                                         
+*/
+a{text-decoration:none}table,td{border:solid 1px #aaa;border-collapse:collapse;margin:0;padding:0;font-size:12pt}td{vertical-align:top;backgrond-color:#fff;padding-left:2px;padding-right:3px}body{font-family:calibri;background-color:#ddf}

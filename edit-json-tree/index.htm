@@ -1,0 +1,69 @@
+<html>
+<head>
+<title>json-tree-edit</title>
+<script type="text/javascript" src="ex00.js"></script>
+<script type="text/javascript" src="x5.js"></script>
+<script type="text/javascript" src="r33.js"></script>
+<script type="text/javascript" src="ensdf-json.js"></script>
+<script type="text/javascript" src="exfor-dict.js"></script>
+<script type="text/javascript" src="dict_arc_all.9929.js"></script>
+<script type="text/javascript" src="exfor-0.js"></script>
+<script type="text/javascript" src="json-fy2.js"></script>
+<script type="text/javascript" src="nsr-results.js"></script>
+<script type="text/javascript" src="nsr-results0.js"></script>
+<script type="text/javascript" src="mf8mt457.js"></script>
+<script type="text/javascript" src="mf33.js"></script>
+<script type="text/javascript" src="exfor-x4-v0.js"></script>
+<script type="text/javascript" src="pace_ensdf.js"></script>
+<script type="text/javascript" src="x5x.js"></script>
+<script type="text/javascript" src="x5c.js"></script>
+<script type="text/javascript" src="x5u.js"></script>
+<script type="text/javascript" src="PubChemElements_all.js"></script>
+<base href="x4js/" target="_blank">
+<link rel="stylesheet" type="text/css" href="json2tree2.css" >
+<link rel="stylesheet" type="text/css" href="json2tree1out.css" >
+<script type="text/javascript" src="json2tree2hist.js"></script>
+<script type="text/javascript" src="json2tree2.js"></script>
+<script type="text/javascript" src="json2tree2event.js"></script>
+<script type="text/javascript" src="json2tree1subr.js"></script>
+<script type="text/javascript" src="json2tree1kwmap.js"></script>
+<script type="text/javascript" src="json2tree1edt.js"></script>
+<script type="text/javascript" src="json2tree2cmd.js"></script>
+<link rel="stylesheet" type="text/css" href="json2tree1edt.css" >
+<script type="text/javascript" src="json2tree1usr.js"></script>
+<script type="text/javascript" src="json2tree2usr.js"></script>
+<script type="text/javascript" src="json2tree2yes.js"></script>
+<script type="text/javascript" src="json2tree2log.js"></script>
+
+<script type="text/javascript" src="json2tree2topmenu.js"></script>
+<link rel="stylesheet" type="text/css" href="json2tree2topmenu.css">
+
+</head>
+<body>
+
+<script language=javascript>
+//  x5json=[[1,2,3],[4,5,6],[7,null,9]];
+//  x5json=[1,2,null,false,5,"a6",7,8,9,"a10",11,{a:12},13,14,15];
+//  x5json={a:[1,2,3,4,5,6,null,8,"a9",10.1,11,12]};
+//  oo1={"x5json":x5json};
+//  oo1=x5json;
+//  oo1=dict_arc_all;
+  oo1=example0_js;
+//  oo1=x4z;
+//  oo1={"0":0,"1":1,"2":2,"3":3,"4":4,"5":5,"6":6,"7":7};
+//  oo1={"a0":0,"a1":1,"a2":2};
+//  oo1={};
+
+//  oo1={"Row":[["1","H","Hydrogen","1.0080"],["2","He","Helium","4.00260"]]};
+
+  outJsonTreeEditorTopPanel(123,"JSON example");
+
+  str=getJsonEdt(oo1,[],'JSON example',0);
+  outWelcomeJsonEdt('web');
+  document.write('<div style="padding-left:8px;padding-top:11px;display:table;" id=id0div0edit>'+str+'</div>');
+  push2mylog('Open test:'+'{JSON example}',2);
+  outEndJsonEdt();
+</script>
+
+</body>
+</html>

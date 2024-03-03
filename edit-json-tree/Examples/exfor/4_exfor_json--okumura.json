@@ -1,0 +1,754 @@
+{
+ "entry": "13597",
+ "last_updated": "2023-05-23",
+ "number_of_revisions": "5",
+ "histories": [
+  {
+   "x4_code": "(19950215C)",
+   "free_txt": []
+  },
+  {
+   "x4_code": "(20140415A)",
+   "free_txt": [
+    " SD: REACTION code corrected in Subent 5.",
+    " Minor corrections."
+   ]
+  }
+ ],
+ "bib_record": {
+  "title": "Partial neutron cross sections for 64Zn, 66Zn, 67Zn and 68Zn between 14.2 and 18.2 MeV",
+  "authors": [
+   {
+    "name": "S.K.Ghorai"
+   },
+   {
+    "name": "P.M.Sylva"
+   },
+   {
+    "name": "J.R.Williams"
+   },
+   {
+    "name": "W.L.Alford"
+   }
+  ],
+  "institutes": [
+   {
+    "x4_code": "(1USAAUB)",
+    "free_txt": ""
+   },
+   {
+    "x4_code": "(1USAALS)",
+    "free_txt": ""
+   }
+  ],
+  "references": [
+   {
+    "x4_code": "(J,ANE,22,11,199501)",
+    "free_txt": [
+     " - final publ., full data set"
+    ],
+    "publication_year": "1995",
+    "doi": null,
+    "pointer": "0"
+   },
+   {
+    "x4_code": "(J,BAP,39,1250(R9.2),199404)",
+    "free_txt": [
+     "  - short abstract"
+    ],
+    "publication_year": "1994",
+    "doi": null,
+    "pointer": "0"
+   }
+  ],
+  "facilities": [
+   {
+    "x4_code": "(DYNAM,1USAAUB)",
+    "free_txt": [],
+    "pointer": "0",
+    "facility_type": "(DYNAM)",
+    "institute": "(1USAAUB)"
+   }
+  ]
+ },
+ "reactions": {
+  "002": {
+   "0": {
+    "x4_code": "(30-ZN-64(N,P)29-CU-64,,SIG)",
+    "children": [
+     {
+      "code": [
+       "30-ZN-64",
+       [
+        "N,P"
+       ],
+       "29-CU-64,,SIG"
+      ],
+      "type": null,
+      "target": "30-ZN-64",
+      "process": "N,P",
+      "sf49": "29-CU-64,,SIG",
+      "sf4": "29-CU-64",
+      "sf5": null,
+      "sf6": "SIG",
+      "sf7": null,
+      "sf8": null,
+      "sf9": null
+     }
+    ],
+    "type": null,
+    "free_text": "",
+    "pointer": "0"
+   }
+  },
+  "003": {
+   "0": {
+    "x4_code": "(30-ZN-64(N,2N)30-ZN-63,,SIG)",
+    "children": [
+     {
+      "code": [
+       "30-ZN-64",
+       [
+        "N,2N"
+       ],
+       "30-ZN-63,,SIG"
+      ],
+      "type": null,
+      "target": "30-ZN-64",
+      "process": "N,2N",
+      "sf49": "30-ZN-63,,SIG",
+      "sf4": "30-ZN-63",
+      "sf5": null,
+      "sf6": "SIG",
+      "sf7": null,
+      "sf8": null,
+      "sf9": null
+     }
+    ],
+    "type": null,
+    "free_text": "",
+    "pointer": "0"
+   }
+  },
+  "004": {
+   "0": {
+    "x4_code": "(30-ZN-66(N,P)29-CU-66,,SIG)",
+    "children": [
+     {
+      "code": [
+       "30-ZN-66",
+       [
+        "N,P"
+       ],
+       "29-CU-66,,SIG"
+      ],
+      "type": null,
+      "target": "30-ZN-66",
+      "process": "N,P",
+      "sf49": "29-CU-66,,SIG",
+      "sf4": "29-CU-66",
+      "sf5": null,
+      "sf6": "SIG",
+      "sf7": null,
+      "sf8": null,
+      "sf9": null
+     }
+    ],
+    "type": null,
+    "free_text": "",
+    "pointer": "0"
+   }
+  },
+  "005": {
+   "0": {
+    "x4_code": "((30-ZN-67(N,P)29-CU-67,,SIG)+(30-ZN-68(N,X)29-CU-67,,SIG,,RAB))",
+    "children": [
+     {
+      "code": [
+       "30-ZN-67",
+       [
+        "N,P"
+       ],
+       "29-CU-67,,SIG"
+      ],
+      "type": null,
+      "target": "30-ZN-67",
+      "process": "N,P",
+      "sf49": "29-CU-67,,SIG",
+      "sf4": "29-CU-67",
+      "sf5": null,
+      "sf6": "SIG",
+      "sf7": null,
+      "sf8": null,
+      "sf9": null
+     },
+     {
+      "code": [
+       "30-ZN-68",
+       [
+        "N,X"
+       ],
+       "29-CU-67,,SIG,,RAB"
+      ],
+      "type": null,
+      "target": "30-ZN-68",
+      "process": "N,X",
+      "sf49": "29-CU-67,,SIG,,RAB",
+      "sf4": "29-CU-67",
+      "sf5": null,
+      "sf6": "SIG",
+      "sf7": null,
+      "sf8": "RAB",
+      "sf9": null
+     }
+    ],
+    "type": "+",
+    "free_text": "",
+    "pointer": "0"
+   }
+  },
+  "006": {
+   "0": {
+    "x4_code": "(30-ZN-68(N,P)29-CU-68-M,,SIG)",
+    "children": [
+     {
+      "code": [
+       "30-ZN-68",
+       [
+        "N,P"
+       ],
+       "29-CU-68-M,,SIG"
+      ],
+      "type": null,
+      "target": "30-ZN-68",
+      "process": "N,P",
+      "sf49": "29-CU-68-M,,SIG",
+      "sf4": "29-CU-68-M",
+      "sf5": null,
+      "sf6": "SIG",
+      "sf7": null,
+      "sf8": null,
+      "sf9": null
+     }
+    ],
+    "type": null,
+    "free_text": "",
+    "pointer": "0"
+   }
+  },
+  "007": {
+   "0": {
+    "x4_code": "(30-ZN-68(N,A)28-NI-65,,SIG)",
+    "children": [
+     {
+      "code": [
+       "30-ZN-68",
+       [
+        "N,A"
+       ],
+       "28-NI-65,,SIG"
+      ],
+      "type": null,
+      "target": "30-ZN-68",
+      "process": "N,A",
+      "sf49": "28-NI-65,,SIG",
+      "sf4": "28-NI-65",
+      "sf5": null,
+      "sf6": "SIG",
+      "sf7": null,
+      "sf8": null,
+      "sf9": null
+     }
+    ],
+    "type": null,
+    "free_text": "",
+    "pointer": "0"
+   }
+  }
+ },
+ "data_tables": {
+  "001": {
+   "common": {
+    "heads": [
+     "EN-RSL"
+    ],
+    "units": [
+     "MEV"
+    ],
+    "data": [
+     [
+      0.2
+     ]
+    ]
+   }
+  },
+  "002": {
+   "common": null,
+   "data": {
+    "heads": [
+     "EN",
+     "DATA",
+     "DATA-ERR",
+     "MONIT",
+     "MONIT-ERR"
+    ],
+    "units": [
+     "MEV",
+     "MB",
+     "MB",
+     "MB",
+     "MB"
+    ],
+    "data": [
+     [
+      14.2,
+      15.2,
+      16.2,
+      17.2
+     ],
+     [
+      180,
+      152,
+      116,
+      122
+     ],
+     [
+      10,
+      9,
+      6,
+      8
+     ],
+     [
+      122,
+      108,
+      90,
+      72
+     ],
+     [
+      0.65,
+      1.96,
+      1.75,
+      1.41
+     ]
+    ]
+   }
+  },
+  "003": {
+   "common": null,
+   "data": {
+    "heads": [
+     "EN",
+     "DATA",
+     "DATA-ERR",
+     "MONIT",
+     "MONIT-ERR"
+    ],
+    "units": [
+     "MEV",
+     "MB",
+     "MB",
+     "MB",
+     "MB"
+    ],
+    "data": [
+     [
+      14.2,
+      15.2,
+      16.2,
+      17.2,
+      18.2
+     ],
+     [
+      121,
+      176,
+      222,
+      267,
+      327
+     ],
+     [
+      6,
+      10,
+      13,
+      17,
+      27
+     ],
+     [
+      122,
+      108,
+      90,
+      72,
+      59.5
+     ],
+     [
+      0.65,
+      1.96,
+      1.75,
+      1.41,
+      1.26
+     ]
+    ]
+   }
+  },
+  "004": {
+   "common": null,
+   "data": {
+    "heads": [
+     "EN",
+     "DATA",
+     "DATA-ERR",
+     "MONIT",
+     "MONIT-ERR"
+    ],
+    "units": [
+     "MEV",
+     "MB",
+     "MB",
+     "MB",
+     "MB"
+    ],
+    "data": [
+     [
+      14.2,
+      15.2,
+      16.2,
+      17.2,
+      18.2
+     ],
+     [
+      76,
+      72,
+      71,
+      62,
+      57
+     ],
+     [
+      5,
+      6,
+      8,
+      7,
+      7
+     ],
+     [
+      122,
+      108,
+      90,
+      72,
+      59.5
+     ],
+     [
+      0.65,
+      1.96,
+      1.75,
+      1.41,
+      1.26
+     ]
+    ]
+   }
+  },
+  "005": {
+   "common": null,
+   "data": {
+    "heads": [
+     "EN",
+     "DATA",
+     "DATA-ERR",
+     "MONIT",
+     "MONIT-ERR"
+    ],
+    "units": [
+     "MEV",
+     "MB",
+     "MB",
+     "MB",
+     "MB"
+    ],
+    "data": [
+     [
+      14.2,
+      15.2,
+      16.2,
+      17.2,
+      18.2
+     ],
+     [
+      82,
+      106,
+      125,
+      141,
+      230
+     ],
+     [
+      5,
+      6,
+      8,
+      21,
+      30
+     ],
+     [
+      122,
+      108,
+      90,
+      72,
+      59.5
+     ],
+     [
+      0.65,
+      1.96,
+      1.75,
+      1.41,
+      1.26
+     ]
+    ]
+   }
+  },
+  "006": {
+   "common": null,
+   "data": {
+    "heads": [
+     "EN",
+     "DATA",
+     "DATA-ERR",
+     "MONIT",
+     "MONIT-ERR"
+    ],
+    "units": [
+     "MEV",
+     "MB",
+     "MB",
+     "MB",
+     "MB"
+    ],
+    "data": [
+     [
+      14.2,
+      15.2,
+      16.2
+     ],
+     [
+      5,
+      6,
+      2
+     ],
+     [
+      0.6,
+      1,
+      1
+     ],
+     [
+      122,
+      108,
+      90
+     ],
+     [
+      0.65,
+      1.96,
+      1.75
+     ]
+    ]
+   }
+  },
+  "007": {
+   "common": null,
+   "data": {
+    "heads": [
+     "EN",
+     "DATA",
+     "DATA-ERR",
+     "MONIT",
+     "MONIT-ERR"
+    ],
+    "units": [
+     "MEV",
+     "MB",
+     "MB",
+     "MB",
+     "MB"
+    ],
+    "data": [
+     [
+      14.2,
+      15.2,
+      16.2
+     ],
+     [
+      10,
+      9,
+      7
+     ],
+     [
+      0.7,
+      0.7,
+      1
+     ],
+     [
+      122,
+      108,
+      90
+     ],
+     [
+      0.65,
+      1.96,
+      1.75
+     ]
+    ]
+   }
+  }
+ },
+ "experimental_conditions": {
+  "001": {
+   "0": {
+    "correction": [
+     {
+      "x4_code": null,
+      "free_txt": [
+       "Corrected for:",
+       ".self-absorption of gamma-rays in sample",
+       ".gamma-gamma coincidence summing effect"
+      ]
+     }
+    ],
+    "decay-mon": [
+     {
+      "x4_code": "(11-NA-24,15.02HR,DG,1369.,1.00)",
+      "free_txt": []
+     }
+    ],
+    "detector": [
+     {
+      "x4_code": "(GELI)",
+      "free_txt": []
+     }
+    ],
+    "err-analys": [
+     {
+      "x4_code": "(DATA-ERR)",
+      "free_txt": [
+       " Standard uncertainties include uncertainty",
+       " in:",
+       " .detector counting efficiency",
+       " .monitor reaction cross section",
+       " .decay parameters, except gamma intensities",
+       " .self-absorption correction",
+       " .coincidence summing effect",
+       " .counting statistics"
+      ]
+     }
+    ],
+    "facility": [
+     {
+      "x4_code": "(DYNAM,1USAAUB)",
+      "free_txt": []
+     }
+    ],
+    "inc-source": [
+     {
+      "x4_code": "(D-T)",
+      "free_txt": [
+       " deuterons on titanium tritide. The titanium",
+       "thickness was 0.62 mg/cm2 with a tritium concentration",
+       "of 0.42 Ci/cm2. The neutron fluxes varied from",
+       "about 1.4 x 10**7 n/cm2/s at 14.2MeV to about",
+       "3.8 x 10**5 n/cm2/s at 18.2 MeV"
+      ]
+     }
+    ],
+    "method": [
+     {
+      "x4_code": "(ACTIV,MOMIX)",
+      "free_txt": []
+     }
+    ],
+    "monitor": [
+     {
+      "x4_code": "(13-AL-27(N,A)11-NA-24,,SIG)",
+      "free_txt": []
+     }
+    ],
+    "sample": [
+     {
+      "x4_code": null,
+      "free_txt": [
+       "Natural zinc sample."
+      ]
+     }
+    ],
+    "status": [
+     {
+      "x4_code": "(APRVD)",
+      "free_txt": [
+       " Approved by S.K. Ghorai, 6/23/1995"
+      ]
+     },
+     {
+      "x4_code": "(TABLE)",
+      "free_txt": [
+       " Data taken from ANE,22,11,1995 (the same data",
+       "are given in BAP,39,1250(R9.2) but without decay-data",
+       "and monitor reaction)"
+      ]
+     }
+    ]
+   }
+  },
+  "002": {
+   "0": {
+    "decay-data": [
+     {
+      "x4_code": "(29-CU-64,12.7HR,AR,511.,0.386)",
+      "free_txt": []
+     }
+    ]
+   }
+  },
+  "003": {
+   "0": {
+    "decay-data": [
+     {
+      "x4_code": "(30-ZN-63,38.0MIN,AR,511.,1.86,                  DG,670.,0.084,DG,962.,0.0661)",
+      "free_txt": []
+     }
+    ]
+   }
+  },
+  "004": {
+   "0": {
+    "decay-data": [
+     {
+      "x4_code": "(29-CU-66,5.1MIN,DG,1039.,0.080)",
+      "free_txt": []
+     }
+    ]
+   }
+  },
+  "005": {
+   "0": {
+    "decay-data": [
+     {
+      "x4_code": "(29-CU-67,62.01HR,DG,185.,0.470)",
+      "free_txt": []
+     }
+    ]
+   }
+  },
+  "006": {
+   "0": {
+    "decay-data": [
+     {
+      "x4_code": "(29-CU-68-M,3.8MIN,DG,526.,0.74)",
+      "free_txt": []
+     }
+    ]
+   }
+  },
+  "007": {
+   "0": {
+    "decay-data": [
+     {
+      "x4_code": "(28-NI-65,2.52HR,DG,1482.,0.235)",
+      "free_txt": []
+     }
+    ]
+   }
+  }
+ }
+}

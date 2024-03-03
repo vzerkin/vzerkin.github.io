@@ -1,0 +1,13 @@
+/*	Program:	json2div1.css
+	Author:		Viktor Zerkin, V.Zerkin@gmail.com
+	Last modified:	2024-01-03
+	Distribution:	2024-01-16
+	Property of:	Viktor Zerkin
+	Project:	Multi-Platform Nuclear Reaction Databases           
+	Usage:		with proper acknolegement to the author
+	Distribution:	restricted while the project has not been finished  
+	Modifications:	can be done with permission of the author           
+	Note:		this is non-commercial software and it comes with   
+			NO WARRANTY                                         
+*/
+table,td{border:solid 1px #aaa;border-collapse:collapse;margin:0;padding:0;padding-left:0;padding-right:1px;font-size:12pt;border-right:0;border-bottom:0}td{vertical-align:top;border-bottom:0}td.val1x{white-space:pre-wrap}.key0{color:#b40;white-space:nowrap;padding-right:2px}.key0x{color:#b4b;white-space:nowrap;padding-right:2px}.val0{color:green}.xval1{color:black}.key1{border-right:solid 1px #777}.hide0{display:none}.hide1{display:none}.hide2{display:none}.hide6{display:none}a{text-decoration:none}body{font-family:calibri}.odd1{background-color:#dff}.odd0{background-color:#fff}table{margin-top:-1px;border:0}.op0{padding-left:1px}

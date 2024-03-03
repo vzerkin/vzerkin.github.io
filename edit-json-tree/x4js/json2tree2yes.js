@@ -1,0 +1,13 @@
+/*	Program:	json2tree2yes.js
+	Author:		Viktor Zerkin, V.Zerkin@gmail.com
+	Last modified:	2024-01-24
+	Distribution:	2024-02-01
+	Property of:	Viktor Zerkin
+	Project:	Multi-Platform Nuclear Reaction Databases           
+	Usage:		with proper acknolegement to the author
+	Distribution:	restricted while the project has not been finished  
+	Modifications:	can be done with permission of the author           
+	Note:		this is non-commercial software and it comes with   
+			NO WARRANTY                                         
+*/
+var txtdebug1="";function getElemCoord(c){var b=0;var a=0;txtdebug1="";while(c.offsetParent){txtdebug1=txtdebug1+" K["+c.tagName+"]x:"+c.offsetLeft+",y:"+c.offsetTop;b+=c.offsetLeft;a+=c.offsetTop;c=c.offsetParent}b+=c.offsetLeft;a+=c.offsetTop;txtdebug1=txtdebug1+"<br>left:"+b+" top:"+a;return{x:b,y:a}}var div1yesno=null;var ndiv1yesno=0;function remove_myConfirm(){if(div1yesno==null){return}document.body.removeChild(div1yesno);div1yesno=null}function myConfirm(c,e,d,f){var h,g,j,k;if(f==""){d=["OK"];f="remove_myConfirm"}remove_myConfirm();var c=(event.target)?event.target:event.srcElement;j=getElemCoord(c);e=e.replace(/\n/g,"<br>");h=e;h+='<center style="padding-top:3px;">';for(k=0;k<d.length;k++){h+=' <a href="javascript:'+f+"('"+d[k]+'\')" onClick="javascript:'+f+"('"+d[k]+'\');return false;" class=cmdButton2 style="padding-bottom:1px;padding-left:8px;padding-right:8px;border:outset 2px #bbf;border-radius:0;font-size:11pt;font-weight:bold;" >'+d[k]+"</a>"}h+="</center>";g=document.createElement("DIV");g.className="yesno";g.id="id_yesno";g.innerHTML=h;document.body.appendChild(g);var a=g;if(a){a.style.position="absolute";a.style.backgroundColor="#ddf";a.style.backgroundColor="#fdd";a.style.border="solid 1px #aaa";a.style.boxShadow="6px 6px 4px #88d";a.style.borderRadius="8px";a.style.display="block";var b=j.x;var i=j.y;a.style.left=(1+b)+"px";a.style.top=(16+i)+"px";prepareDragging(a)}div1yesno=g;ndiv1yesno=0}function getMargins(b){var c=b.currentStyle||window.getComputedStyle(b);var a={getX:function(){return parseInt(c.marginLeft)},getY:function(){return parseInt(c.marginTop)}};return a}function prepareDragging(e){var g=false;var k=false;var c=e.style;var b,a,i,h;var j=function(m){b=m.clientX;a=m.clientY;var l=getMargins(e);i=e.offsetLeft-l.getX();h=e.offsetTop-l.getY();k=true};var f=function(l){k=false};var d=function(m){if(k){var l=i+m.clientX-b;var n=h+m.clientY-a;c.left=l+"px";c.top=n+"px"}};e.addEventListener("mousedown",j);window.addEventListener("mouseup",f);window.addEventListener("mousemove",d);return function(){if(g){return}e.removeEventListener("mousedown",j);window.removeEventListener("mouseup",f);window.removeEventListener("mousemove",d);g=true}};

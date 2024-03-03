@@ -1,0 +1,13 @@
+/*	Program:	json2tree2event.js
+	Author:		Viktor Zerkin, V.Zerkin@gmail.com
+	Last modified:	2024-02-08
+	Distribution:	2024-02-09
+	Property of:	Viktor Zerkin
+	Project:	Multi-Platform Nuclear Reaction Databases           
+	Usage:		with proper acknolegement to the author
+	Distribution:	restricted while the project has not been finished  
+	Modifications:	can be done with permission of the author           
+	Note:		this is non-commercial software and it comes with   
+			NO WARRANTY                                         
+*/
+function tree_toggle(c){var b;c=c||window.event;var a=c.target||c.srcElement;if(hasClass(a,"Expand")){flipNode(a);return}var d=a.parentNode;if(false){console.log("___clickedElem:\n tag:["+a.tagName+"] class:["+a.className+"]\n parent.tag:["+a.parentNode.tagName+"] par.class:["+a.parentNode.className+"] par.par.class:["+a.parentNode.parentNode.className+"]\n par.children:["+a.parentNode.children.length+"]")}if(clickOnJsonKey1(c,a)){return}if(clickOnJsonCmd0(c,a)){return}if(typeof d!="undefined"){if(d!=null){if(typeof d.className!="undefined"){if(d.className=="PullNext"){if(typeof d.parentNode!="undefined"){flipNodes(d.parentNode);hideMyPopup()}return}}}}return;if(d){if(typeof d!="undefined"){if(hasClass(d,"Content")){b=""+a.className;alert("...command=["+a.innerHTML+"]\nmyClass=["+b+"]\nmyparent=["+d.innerHTML+"]\n");if(a.className=="x4cmd0"){flipNodes(d);hideMyPopup();return}document.body.style.backgroundColor="#e0a0e0";setPositionMyPopup(c);outMyCmd1Popup(a.className);showMyPopup();return}}}hideMyPopup()}function flipNode(a){if(!hasClass(a,"Expand")){return}var c=a.parentNode;if(hasClass(c,"ExpandLeaf")){return}var d=hasClass(c,"ExpandOpen")?"ExpandClosed":"ExpandOpen";var b=/(^|\s)(ExpandOpen|ExpandClosed)(\s|$)/;c.className=c.className.replace(b,"$1"+d+"$3")}function setNode(a,d){if(!hasClass(a,"Expand")){return}var c=a.parentNode;if(hasClass(c,"ExpandLeaf")){return}var e=(d==0)?"ExpandClosed":"ExpandOpen";var b=/(^|\s)(ExpandOpen|ExpandClosed)(\s|$)/;c.className=c.className.replace(b,"$1"+e+"$3")}function hasClass(b,a){if(b.className.indexOf(a)>=0){return true}else{return false}}function flipNodes(d){var f,c,b,e,a;f=d.parentNode.childNodes;e="---0---"+f.length;for(c=0;c<f.length;c++){b=f[c];a=""+b.className;if(a=="undefined"){continue}if(a=="Container"){flipNodes1(b)}e=e+"\n"+b.className}}function flipNodes1(d){var f,c,b,e,a;f=d.childNodes;e="---1---"+f.length;for(c=0;c<f.length;c++){b=f[c];a=""+b.className;if(a=="undefined"){continue}flipNodes2(b);e=e+"\n"+b.className}}function flipNodes2(e){var g,d,b,f,a,c;g=e.childNodes;f="---2---"+g.length;for(d=0;d<g.length;d++){b=g[d];a=""+b.className;if(a=="undefined"){continue}f=f+"\n"+b.className;setNode(b,0)}};

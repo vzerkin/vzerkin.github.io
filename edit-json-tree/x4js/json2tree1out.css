@@ -1,0 +1,13 @@
+/*	Program:	json2tree1out.css
+	Author:		Viktor Zerkin, V.Zerkin@gmail.com
+	Last modified:	2024-01-14
+	Distribution:	2024-01-16
+	Property of:	Viktor Zerkin
+	Project:	Multi-Platform Nuclear Reaction Databases           
+	Usage:		with proper acknolegement to the author
+	Distribution:	restricted while the project has not been finished  
+	Modifications:	can be done with permission of the author           
+	Note:		this is non-commercial software and it comes with   
+			NO WARRANTY                                         
+*/
+.x5arr{color:green}.x5dt{color:#ccc}.ob1{color:#599;font-size:8pt;font-family:arial}.ob2{color:#88f;font-size:8pt;font-family:arial}.x5free{color:#44a;white-space:pre;font-family:Lucida Typewriter,Lucida Sans Typewriter,monospace,courier new,courier;font-size:8.5pt;letter-spacing:-1px;letter-spacing:0}.x5val{color:blue}.kwHelp{color:#a0a;font-style:italic}.idHelp{color:#a00;font-style:italic}.idHelpUnit{color:#0a0}.tblAuthor{border:solid 1px #777;border-collapse:collapse;font-size:9pt}table.tblAuthor{margin-bottom:3pt}.t5arr{border:solid 1px #777;border-collapse:collapse;color:green;padding:0;padding-left:6px;padding-right:6px;font-size:9pt}table.t5arr{border:0}.t5arr1{border:0;border-collapse:collapse;color:grey;padding:0;padding-left:6px;padding-right:6px;font-style:italic;font-family:times new roman;font-size:9pt}.welcome1{display:table;background-color:#fff;margin:5pt;padding:0;padding-left:20px;padding-right:20px;margin-left:12pt;background:linear-gradient(30deg,#ccf,#fff,#ccf);background:linear-gradient(30deg,#aaf 10%,#fff 50%,#aaf);font-size:8pt;box-shadow:6px 6px 4px #88d;border-radius:60px;border:solid 1px #44a;font-family:times new roman;font-size:20pt;font-weight:bold;color:blue;text-shadow:-1px -1px 0 #fff}.welcome1by{font-family:times new roman;font-size:11pt;color:blue;text-shadow:-1px -1px 0 #fff;margin-top:-3px;padding-left:2px;padding-bottom:6px}.welcome1x{position:absolute;color:white;z-index:0}

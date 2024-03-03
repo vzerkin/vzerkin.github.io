@@ -1,0 +1,13 @@
+/*	Program:	x4pp_edit.css
+	Author:		Viktor Zerkin, V.Zerkin@gmail.com
+	Last modified:	2015-12-22
+	Distribution:	2024-01-16
+	Property of:	Viktor Zerkin
+	Project:	Multi-Platform Nuclear Reaction Databases           
+	Usage:		with proper acknolegement to the author
+	Distribution:	restricted while the project has not been finished  
+	Modifications:	can be done with permission of the author           
+	Note:		this is non-commercial software and it comes with   
+			NO WARRANTY                                         
+*/
+body{padding:0;margin:0}.menu{position:fixed;padding:0;margin:0;padding-left:6px;padding-bottom:0;margin-bottom:6px;border-bottom:1px solid #777;background:#6bf;background-color:#ddf;width:100%;float:left}.menu a{color:blue;text-decoration:none}.menu a:hover{color:blue}.menu ul{padding:0;margin:0}.menu li{list-style:none;padding:0 15px 0 0;margin:0 auto;float:left;padding-left:8px;padding-right:8px;margin:0;display:inline-table;white-space:nowrap;position:relative}.menu li ul{position:absolute;top:100%;left:0;visibility:hidden;opacity:0;border:1px solid #000;background-color:#ddf}.menu li ul li{float:none;display:inline;border-bottom:1px solid #fff}.menu li ul li{display:block;background:#ddf}.menu li:hover ul{visibility:visible;opacity:1}.menu ul ul{display:none;left:100%;top:0;border:1px solid #000;margin:0;padding:0}.menu ul li:hover ul{display:block}.menu a,span{font-family:Arial;font-size:10pt;text-decoration:none}.menu li:hover{background:#f5a}

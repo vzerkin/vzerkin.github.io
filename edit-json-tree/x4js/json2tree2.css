@@ -1,0 +1,13 @@
+/*	Program:	json2tree2.css
+	Author:		Viktor Zerkin, V.Zerkin@gmail.com
+	Last modified:	2024-02-08
+	Distribution:	2024-02-09
+	Property of:	Viktor Zerkin
+	Project:	Multi-Platform Nuclear Reaction Databases           
+	Usage:		with proper acknolegement to the author
+	Distribution:	restricted while the project has not been finished  
+	Modifications:	can be done with permission of the author           
+	Note:		this is non-commercial software and it comes with   
+			NO WARRANTY                                         
+*/
+.Container{padding:0;margin:0}.Container li{list-style-type:none}.Node{background-image:url(x4ppimg/i.gif);background-position:top left;background-repeat:repeat-y;margin-left:16px;zoom:1}.IsRoot{margin-left:0}.IsLast{background-image:url(x4ppimg/i_half.png);background-repeat:no-repeat}.ExpandOpen .Expand{background-image:url(x4ppimg/expand_minus.png)}.ExpandClosed .Expand{background-image:url(x4ppimg/expand_plus.png)}.ExpandLeaf .Expand{background-image:url(x4ppimg/expand_leaf.png)}.Content{min-height:18px;margin-left:20px}* html .Content{height:18px}.Expand{width:18px;height:18px;float:left}.ExpandLoading{width:18px;height:18px;float:left;background-image:url(x4ppimg/expand_loading.gif)}.ExpandOpen .Container{display:block}.ExpandClosed .Container{display:none}.ExpandOpen .Expand,.ExpandClosed .Expand{cursor:pointer}.ExpandLeaf .Expand{cursor:auto;margin-top:-2px}.PullNext{padding:0;margin:0;margin-right:1px;cursor:pointer;vertical-align:middle}.PullNext::after{background:rgba(128,255,255,1.0);border-radius:8px 8px 8px 0;box-shadow:1px 1px 2px rgba(0,0,0,0.8);color:#000;content:"Pull up the lower level";margin-left:-4px;margin-top:-37px;opacity:1;padding:3px 7px;position:absolute;transition:all .4s ease-in-out;margin-left:2px}.PullNext:before,.PullNext:after{display:none}.PullNext:hover:before,.PullNext:hover:after{display:block}.x4tree{font-family:arial,verdana,geneva,helvetica,sans-serif;font-size:9pt}
