@@ -1,4 +1,4 @@
-# My Web pages on GitHub
+# My Web pages
 by V.Zerkin, 2024
 
 ## JSON Viewer/Editor
