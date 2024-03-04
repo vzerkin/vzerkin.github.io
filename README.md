@@ -5,3 +5,4 @@ by V.Zerkin, 2024
 
 * [github.io](https://vzerkin.github.io/edit-json-tree/) edit-json-tree on GitHub
 * [usite.pro](https://zerkin.usite.pro/edit-json-tree/)  edit-json-tree on Usite
+[compare](https://vzerkin.github.io/edit-json-tree/cmp2json.htm)
