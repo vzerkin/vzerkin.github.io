@@ -3,5 +3,5 @@ by V.Zerkin, 2024
 
 ## JSON Viewer/Editor
 
-* [github.io](https://vzerkin.github.io/edit-json-tree/) edit JSON-iTree on GitHub
-* [usite.pro](https://zerkin.usite.pro/edit-json-tree/)  edit JSON-iTree on Usite
+* [github.io](https://vzerkin.github.io/edit-json-tree/) edit-json-tree on GitHub
+* [usite.pro](https://zerkin.usite.pro/edit-json-tree/)  edit-json-tree on Usite
