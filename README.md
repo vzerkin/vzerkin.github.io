@@ -3,6 +3,5 @@ by V.Zerkin, 2024
 
 ## JSON Viewer/Editor
 
-* [github.io](https://vzerkin.github.io/edit-json-tree/) edit-json-tree on GitHub
-* [usite.pro](https://zerkin.usite.pro/edit-json-tree/)  edit-json-tree on Usite
-[compare](https://vzerkin.github.io/edit-json-tree/cmp2json.htm)
+* github.io: [edit-json-tree](https://vzerkin.github.io/edit-json-tree/), [compare](https://vzerkin.github.io/edit-json-tree/cmp2json.htm)
+* usite.pro: [edit-json-tree](https://zerkin.usite.pro/edit-json-tree/), [compare](https://vzerkin.github.io/edit-json-tree/cmp2json.htm)
