@@ -6,7 +6,14 @@ by V.Zerkin, 2024
 ### Purpose/Features/Links:
 * Presenting **any** JSON text as interactive tree in order to 
   learn/understand/compare/discuss data structures/content/hierarchy
-* Test samples: nuclear data JSON files from EXFOR, ENDF, ENSDF, NSR, IBANDL, etc.
+* Test samples: nuclear data JSON files from 
+  [EXFOR](https://nds.iaea.org/exfor/),
+  [ENDF](https://nds.iaea.org/ends/),
+  [IBANDL](https://nds.iaea.org/exfor/ibandl.htm),
+  [Web-API](https://nds.iaea.org/exfor/x4guide/API/),
+  [NSR](https://www.nndc.bnl.gov/nsr-dev/),
+  ENSDF,
+  etc.
 * Viewer-part is extended to display specific information along with node title
 * Editor implements operations: 
   * File: open/new/save
