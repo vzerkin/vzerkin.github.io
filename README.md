@@ -1,7 +1,7 @@
 # My Web pages
 by V.Zerkin, 2024
 
-## JSON Viewer/Editor
+## JSON Tree Editor
 
 ### Purpose/Features/Links:
 * Presenting any JSON text as interactive tree in order to 
