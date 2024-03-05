@@ -20,7 +20,7 @@ by V.Zerkin, 2024
   * Edit: undo/redo
   * History: view history of operations roll back to previous steps
   * Tool: minify/expand/iTable current JSON text in pupup-window
-  * Node in the graph-tree: JSON <key,value>
+  * Node in the graph-tree: JSON <key:value>
     * Edit: modify "key", modify/check/copy/paste text of "value"
     * Move: up/down
     * Remove: delete whole Node
