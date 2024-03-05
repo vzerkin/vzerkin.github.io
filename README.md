@@ -21,7 +21,7 @@ by V.Zerkin, 2024
   * View: open 1 level of nesting, 2, 3, ..., open all nodes
   * History: view history of operations roll back to previous steps
   * Tool: minify/expand/iTable current JSON text in pupup-window
-  * Node in the graph-tree: JSON \<key:value\>
+  * Node in the graph-tree: JSON _\<key:value\>_
     * Edit: modify/check/minify/expand/copy/paste text of "key" and "value"
     * Move: up/down
     * Remove: delete whole Node
