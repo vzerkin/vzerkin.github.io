@@ -1,0 +1,100 @@
+{
+  "format":"Endf_MF8_MT457-v0.1",
+  "now":"2024-01-17T21:17:20.749Z",
+  "program":"EndfSect457, by V.Zerkin, IAEA-NDS, ver.2022-08-19",
+  "id":"9143400"
+  ,"dataType":"Radioactive decay data"
+  ,"datTyp":"e6mt457"
+  ,"Library":"JEFF-3.3"
+  ,"EDATE":"EVAL-OCT82"
+  ,"AUTH": "A.L. NICHOLS"
+  ,"HSUB1":"----JEFF-33"
+  ,"MAT":73 ,"NSUB":"4"
+  ,"Nucleus":"N-16"
+  ,"MF":8 ,"MT":457
+  ,"ZA":7016 ,"AWR":15.8686
+  ,"T12s":7.13 ,"dT12s":0.02
+  ,"T12":7.13 ,"dT12":0.02 ,"uT12":"s"
+  ,"Ebeta":2679.45 ,"dEbeta":104.707 ,"uEbeta":"keV"
+  ,"Egamma":4621.5 ,"dEgamma":137.885 ,"uEgamma":"keV"
+  ,"Ealpha":0.0296987 ,"dEalpha":0.00151517 ,"uEalpha":"keV"
+  ,"Spin":2.0
+  ,"Parity":"minus"
+  ,"LISO":0
+  ,"LIS": 0
+  ,"nDecayModes":2
+  ,"nRadTypes":3
+  ,"DecayModes":[
+    {"i":1 ,"RTYP":"1" ,"txRTYP":"Beta-"
+     ,"DecayQ":10418.0, "dDecayQ":3.0 ,"uDecayQ":"keV"
+     ,"Branching":0.999988 ,"dBranching":5.0E-7
+    }
+   ,{"i":2 ,"RTYP":"1.4" ,"txRTYP":"Beta- --> Alpha"
+     ,"DecayQ":3256.0, "dDecayQ":3.0 ,"uDecayQ":"keV"
+     ,"Branching":1.2E-5 ,"dBranching":5.0E-7
+    }
+  ]
+  ,"RadTypes":[
+    {"i":1 ,"STYP":"0" ,"txSTYP":"Gamma"
+     ,"AveDecayEne":4609.6, "dAveDecayEne":137.88 ,"uAveDecayEne":"keV"
+     ,"DiscreteSpectrum": {
+        "Normalization":0.688 ,"dNormalization":0.0
+       ,"nPts":10 ,"PtsTyp":"line"
+       ,"PtsUnit": [ {"E":"keV"} ,{"dE":"keV"} ,{"RI":"no-dim"} ,{"dRI":"no-dim"} ]
+       ,"Pts": [
+	   {"i":1  ,"E":986.5    ,"dE":0.3       ,"RI":5.0872E-5  ,"dRI":4.3605E-6  ,"RTYP":"1" }
+	  ,{"i":2  ,"E":1755.0   ,"dE":1.0       ,"RI":0.0020349  ,"dRI":4.3605E-4  ,"RTYP":"1" }
+	  ,{"i":3  ,"E":1954.8   ,"dE":1.0       ,"RI":5.8139E-4  ,"dRI":1.4535E-4  ,"RTYP":"1" }
+	  ,{"i":4  ,"E":2741.5   ,"dE":0.6       ,"RI":0.012209   ,"dRI":0.0021802  ,"RTYP":"1" }
+	  ,{"i":5  ,"E":2822.5   ,"dE":1.5       ,"RI":1.8895E-5  ,"dRI":2.907E-6   ,"RTYP":"1" }
+	  ,{"i":6  ,"E":6048.2   ,"dE":1.0       ,"RI":1.8895E-4  ,"dRI":5.8139E-5  ,"RTYP":"1" }
+	  ,{"i":7  ,"E":6129.17  ,"dE":0.04      ,"RI":1.0        ,"dRI":0.031977   ,"RTYP":"1" }
+	  ,{"i":8  ,"E":6915.5   ,"dE":0.6       ,"RI":5.8139E-4  ,"dRI":1.4535E-4  ,"RTYP":"1" }
+	  ,{"i":9  ,"E":7115.15  ,"dE":0.14      ,"RI":0.072674   ,"dRI":0.005814   ,"RTYP":"1" }
+	  ,{"i":10 ,"E":8869.2   ,"dE":0.5       ,"RI":0.0011628  ,"dRI":1.4535E-4  ,"RTYP":"1" }
+        ]
+       ,"Legend": [
+          {"RTYP":{"1":"Beta-"}}
+        ]
+      }
+    }
+   ,{"i":2 ,"STYP":"1" ,"txSTYP":"Beta-"
+     ,"AveDecayEne":2679.5, "dAveDecayEne":104.71 ,"uAveDecayEne":"keV"
+     ,"DiscreteSpectrum": {
+        "Normalization":1.0 ,"dNormalization":0.0
+       ,"nPts":7 ,"PtsTyp":"endpoint"
+       ,"PtsUnit": [ {"E":"keV"} ,{"dE":"keV"} ,{"RI":"no-dim"} ,{"dRI":"no-dim"} ]
+       ,"Pts": [
+	   {"i":1  ,"E":571.0    ,"dE":6.0       ,"RI":6.5E-9     ,"dRI":2.0E-9     ,"RTYP":"1" ,"TYPE":"1" }
+	  ,{"i":2  ,"E":786.0    ,"dE":24.0      ,"RI":1.2E-5     ,"dRI":5.0E-7     ,"RTYP":"1" ,"TYPE":"1" }
+	  ,{"i":3  ,"E":1546.0   ,"dE":4.0       ,"RI":0.01       ,"dRI":0.002      ,"RTYP":"1" ,"TYPE":"1" }
+	  ,{"i":4  ,"E":3301.0   ,"dE":3.0       ,"RI":0.049      ,"dRI":0.004      ,"RTYP":"1" ,"TYPE":"1" }
+	  ,{"i":5  ,"E":4288.0   ,"dE":3.0       ,"RI":0.68       ,"dRI":0.02       ,"RTYP":"1" ,"TYPE":"1" }
+	  ,{"i":6  ,"E":4369.0   ,"dE":4.0       ,"RI":1.2E-4     ,"dRI":4.0E-5     ,"RTYP":"1" ,"TYPE":"2" }
+	  ,{"i":7  ,"E":10418.0  ,"dE":3.0       ,"RI":0.26       ,"dRI":0.02       ,"RTYP":"1" ,"TYPE":"2" }
+        ]
+       ,"Legend": [
+          {"TYPE":{"2":"First forbidden"}}
+         ,{"TYPE":{"1":"Allowed or super-allowed"}}
+         ,{"RTYP":{"1":"Beta-"}}
+        ]
+      }
+    }
+   ,{"i":3 ,"STYP":"4" ,"txSTYP":"Alpha"
+     ,"AveDecayEne":0.029699, "dAveDecayEne":0.0015152 ,"uAveDecayEne":"keV"
+     ,"DiscreteSpectrum": {
+        "Normalization":1.0 ,"dNormalization":0.0
+       ,"nPts":3 ,"PtsTyp":"line"
+       ,"PtsUnit": [ {"E":"keV"} ,{"dE":"keV"} ,{"RI":"no-dim"} ,{"dRI":"no-dim"} ]
+       ,"Pts": [
+	   {"i":1  ,"E":1282.0   ,"dE":5.0       ,"RI":4.6E-8     ,"dRI":8.0E-9     ,"RTYP":"4" }
+	  ,{"i":2  ,"E":1850.0   ,"dE":100.0     ,"RI":1.2E-5     ,"dRI":5.0E-7     ,"RTYP":"4" }
+	  ,{"i":3  ,"E":2014.0   ,"dE":10.0      ,"RI":6.5E-9     ,"dRI":2.0E-9     ,"RTYP":"4" }
+        ]
+       ,"Legend": [
+          {"RTYP":{"4":"Alpha"}}
+        ]
+      }
+    }
+  ]
+}

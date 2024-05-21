@@ -1,0 +1,171 @@
+{
+    "parents": [
+        {
+            "Z": 64,
+            "A": 148,
+            "symbol": "Gd",
+            "levelEnergy": {
+                "unit": "keV",
+                "value": 0,
+                "uncertainty": {
+                    "type": "symmetric",
+                    "value": 0
+                }
+            },
+            "spinParity": {
+                "values": [
+                    {
+                        "twoTimesSpin": 0,
+                        "isTentativeSpin": false,
+                        "parity": "+",
+                        "isTentativeParity": false
+                    }
+                ]
+            },
+            "halfLife": {
+                "unit": "y",
+                "value": 74.6,
+                "uncertainty": {
+                    "type": "symmetric",
+                    "value": 3
+                }
+            },
+            "qValue": {
+                "unit": "keV",
+                "value": 3271.21,
+                "uncertainty": {
+                    "type": "symmetric",
+                    "value": 0.03
+                }
+            },
+            "normalization": {
+                "branchingRatio": {
+                    "value": 1,
+                    "uncertainty": {
+                        "type": "unreported"
+                    }
+                }
+            }
+        }
+    ],
+    "levels": [
+        {
+            "energy": {
+                "unit": "keV",
+                "value": 0,
+                "uncertainty": {
+                    "type": "symmetric",
+                    "value": 0
+                }
+            },
+            "spinParity": {
+                "values": [
+                    {
+                        "twoTimesSpin": 0,
+                        "isTentativeSpin": false,
+                        "parity": "+",
+                        "isTentativeParity": false
+                    }
+                ]
+            },
+            "isStable": true,
+            "alpha": {
+                "placement": "confirmed",
+                "energy": {
+                    "unit": "keV",
+                    "value": 3182.69,
+                    "uncertainty": {
+                        "type": "symmetric",
+                        "value": 0.024
+                    }
+                },
+                "intensity": {
+                    "value": 100,
+                    "uncertainty": {
+                        "type": "unreported"
+                    }
+                },
+                "hindranceFactor": {
+                    "value": 1,
+                    "uncertainty": {
+                        "type": "unreported"
+                    }
+                },
+                "comments": [
+                    {
+                        "type": "comment",
+                        "body": "r0=1.570 \\textit{3} computed from HF=1.0"
+                    },
+                    {
+                        "type": "comment",
+                        "head": [
+                            {
+                                "name": "E"
+                            }
+                        ],
+                        "body": "Recommended by 1991Ry01 based on measuremnent by 1973Go29."
+                    },
+                    {
+                        "type": "comment",
+                        "head": [
+                            {
+                                "name": "IA"
+                            }
+                        ],
+                        "body": "I\\ensuremath{\\alpha}=100\\%. The first excited staet (2\\ensuremath{^{+}}) is at 1660.2. I\\ensuremath{\\alpha}\\ensuremath{<}1.0\\ensuremath{\\times}10\\ensuremath{^{\\textnormal{$-$22}}} \\% for unobserved 1567.5\\ensuremath{\\alpha} to 2\\ensuremath{^{+}} state with HF\\ensuremath{>}1."
+                    }
+                ]
+            }
+        }
+    ],
+    "header": {
+        "documentType": "alphaDecay",
+        "schemaVersion": "beta",
+        "datasetName": "148GD A DECAY",
+        "database": "ENSDF",
+        "z": 62,
+        "n": 82,
+        "a": 144,
+        "elementName": "Samarium",
+        "elementSymbol": "Sm",
+        "history": {
+            "fullEvaluation": {
+                "cutoffDate": "1997-01-01",
+                "publication": "NDS 84, 1 (1198)",
+                "authors": [
+                    {
+                        "name": "J. Tuli"
+                    }
+                ]
+            },
+            "updates": [
+                {
+                    "date": "2023-12-12",
+                    "authors": [
+                        {
+                            "name": "NNDC"
+                        }
+                    ],
+                    "comments": [
+                        "Automatically parsed w/ ensdf-parser on 2023-12-12"
+                    ]
+                },
+                {
+                    "date": "2007-03-28",
+                    "authors": [
+                        {
+                            "name": "J. Tuli"
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "references": {
+        "cited": [
+            {
+                "keyNumber": "1998AK04"
+            }
+        ]
+    }
+}
