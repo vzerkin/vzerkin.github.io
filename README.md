@@ -1,5 +1,5 @@
 # My Web pages
-by V.Zerkin, 2024
+by V.Zerkin, 2024-2025
 
 ## JSON-Tree Editor
 
@@ -31,6 +31,7 @@ by V.Zerkin, 2024
     [x5](https://vzerkin.github.io/edit-json-tree/#1),
     [x4std](https://vzerkin.github.io/edit-json-tree/#10),
     [ensdf](https://vzerkin.github.io/edit-json-tree/#5),
+    [myensdf](https://vzerkin.github.io/edit-json-tree/#5z),
     [pace_ensdf](https://vzerkin.github.io/edit-json-tree/#11);
     parallel view/edit: [exfor](https://vzerkin.github.io/edit-json-tree/cmp2exfor.htm),
     [dict](https://vzerkin.github.io/edit-json-tree/cmp2dict.htm),
@@ -39,6 +40,7 @@ by V.Zerkin, 2024
     [x5](https://zerkin.usite.pro/edit-json-tree/#1),
     [x4std](https://zerkin.usite.pro/edit-json-tree/#10),
     [ensdf](https://zerkin.usite.pro/edit-json-tree/#5),
+    [myensdf](https://zerkin.usite.pro/edit-json-tree/#5z),
     [pace_ensdf](https://zerkin.usite.pro/edit-json-tree/#11);
     parallel view/edit: [exfor](https://zerkin.usite.pro/edit-json-tree/cmp2exfor.htm),
     [dict](https://zerkin.usite.pro/edit-json-tree/cmp2dict.htm),
