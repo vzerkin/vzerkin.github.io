@@ -12,9 +12,10 @@ by V.Zerkin, 2024-2025
   [ENDF](https://nds.iaea.org/endf/),
   [Web-API](https://nds.iaea.org/exfor/x4guide/API/),
   [NSR](https://www.nndc.bnl.gov/nsr-dev/),
-  ENSDF,
+  [ENSDF](https://www.nndc.bnl.gov/ensdf-json/),
   etc.
-* Viewer-part is extendable to display specific information along with the node name
+* Viewer-part extended to display specific information (useful for nuclear data user) 
+  along with the node name and value
 * Editor implements operations: 
   * File: new/save/open local JSON file
   * Edit: undo/redo
