@@ -34,7 +34,7 @@ by V.Zerkin, 2024-2025
     [ensdf](https://vzerkin.github.io/edit-json-tree/#5),
     [myensdf](https://vzerkin.github.io/edit-json-tree/#5z),
     [pace_ensdf](https://vzerkin.github.io/edit-json-tree/#11);
-    parallel view/edit: [exfor](https://vzerkin.github.io/edit-json-tree/cmp2exfor.htm),
+    parallel view: [exfor](https://vzerkin.github.io/edit-json-tree/cmp2exfor.htm),
     [dict](https://vzerkin.github.io/edit-json-tree/cmp2dict.htm),
     [nsr](https://vzerkin.github.io/edit-json-tree/cmp2nsr.htm),
     [ensdf](https://vzerkin.github.io/edit-json-tree/cmp2ensdf.htm)
