@@ -36,7 +36,8 @@ by V.Zerkin, 2024-2025
     [pace_ensdf](https://vzerkin.github.io/edit-json-tree/#11);
     parallel view/edit: [exfor](https://vzerkin.github.io/edit-json-tree/cmp2exfor.htm),
     [dict](https://vzerkin.github.io/edit-json-tree/cmp2dict.htm),
-    [nsr](https://vzerkin.github.io/edit-json-tree/cmp2nsr.htm)
+    [nsr](https://vzerkin.github.io/edit-json-tree/cmp2nsr.htm),
+    [ensdf](https://vzerkin.github.io/edit-json-tree/cmp2ensdf.htm)
   * zerkin.usite.pro: [edit-json-tree](https://zerkin.usite.pro/edit-json-tree/),
     [x5](https://zerkin.usite.pro/edit-json-tree/#1),
     [x4std](https://zerkin.usite.pro/edit-json-tree/#10),
@@ -45,5 +46,6 @@ by V.Zerkin, 2024-2025
     [pace_ensdf](https://zerkin.usite.pro/edit-json-tree/#11);
     parallel view/edit: [exfor](https://zerkin.usite.pro/edit-json-tree/cmp2exfor.htm),
     [dict](https://zerkin.usite.pro/edit-json-tree/cmp2dict.htm),
-    [nsr](https://zerkin.usite.pro/edit-json-tree/cmp2nsr.htm)
+    [nsr](https://zerkin.usite.pro/edit-json-tree/cmp2nsr.htm),
+    [ensdf](https://zerkin.usite.pro/edit-json-tree/cmp2ensdf.htm)
 * Editor can also be used in local Web-Browser without Web-server.
