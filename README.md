@@ -48,7 +48,7 @@ by V.Zerkin, 2024-2025
     [dict](https://zerkin.usite.pro/edit-json-tree/cmp2dict.htm),
     [nsr](https://zerkin.usite.pro/edit-json-tree/cmp2nsr.htm),
     [ensdf](https://zerkin.usite.pro/edit-json-tree/cmp2ensdf.htm)
-* Auxiliary tools:
+* Auxiliary online tools:
     * Translate your ENSDF file to MyEnsdf.json (and vice versa)
       * Input ENSDF to plain text area: [ensdf2json](https://zerkin.usite.pro/edit-json-tree/ensdf2json.htm)
       * Experimental colored version: [ens2json](https://zerkin.usite.pro/edit-json-tree/ens2json.htm)
