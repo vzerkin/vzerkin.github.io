@@ -49,6 +49,6 @@ by V.Zerkin, 2024-2025
     [nsr](https://zerkin.usite.pro/edit-json-tree/cmp2nsr.htm),
     [ensdf](https://zerkin.usite.pro/edit-json-tree/cmp2ensdf.htm)
     * Auxiliary software: translate ENSDF to MyEnsdf.json
-      plain-text:[ensdf2json](https://zerkin.usite.pro/edit-json-tree/ensdf2json.htm)
-      colored-text:[ens2json](https://zerkin.usite.pro/edit-json-tree/ens2json.htm)
+      plain version: [ensdf2json](https://zerkin.usite.pro/edit-json-tree/ensdf2json.htm)
+      colored version: [ens2json](https://zerkin.usite.pro/edit-json-tree/ens2json.htm)
 * Editor can also be used in local Web-Browser without Web-server.
